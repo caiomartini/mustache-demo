@@ -1,0 +1,23 @@
+<script id="template-table" type="x-tmpl-mustache">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Função</th>
+        <th scope="col">Férias?</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#membros}}
+      <tr>
+        <td>{{nome}}</td>
+        <td>{{funcao}}</td>
+        <td>
+          {{#ferias}}<a href="#" class="badge badge-danger">Sim</a>{{/ferias}}
+          {{^ferias}}<a href="#" class="badge badge-success">Não</a>{{/ferias}}
+        </td>
+      </tr>
+      {{/membros}}
+    </tbody>
+  </table>
+</script>

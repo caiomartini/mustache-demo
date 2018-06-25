@@ -1,0 +1,79 @@
+{
+    "autor": {
+        "nome": "Caio",
+        "sobrenome": "Martini"
+    },
+    "time": {
+        "nome": "Mitsui",
+        "predio": 16,
+        "squads": [{
+                "nome": "Squad 2",
+                "membros": [{
+                        "nome": "Caio",
+                        "funcao": "Desenvolvedor",
+                        "ferias": true
+                    },
+                    {
+                        "nome": "Danilo",
+                        "funcao": "Desenvolvedor",
+                        "ferias": false
+                    },
+                    {
+                        "nome": "Nicolini",
+                        "funcao": "Desenvolvedor",
+                        "ferias": false
+                    },
+                    {
+                        "nome": "Cokada",
+                        "funcao": "Desenvolvedor",
+                        "ferias": true
+                    },
+                    {
+                        "nome": "Júlio",
+                        "funcao": "Estagiário",
+                        "ferias": false
+                    },
+                    {
+                        "nome": "Netão",
+                        "funcao": "Arquiteto",
+                        "ferias": false
+                    }
+                ]
+            },
+            {
+                "nome": "Squad 3",
+                "membros": [{
+                        "nome": "Cappelli",
+                        "funcao": "Desenvolvedor",
+                        "ferias": false
+                    },
+                    {
+                        "nome": "Jorge",
+                        "funcao": "Desenvolvedor",
+                        "ferias": false
+                    },
+                    {
+                        "nome": "Letícia",
+                        "funcao": "Desenvolvedora",
+                        "ferias": false
+                    },
+                    {
+                        "nome": "Mirandola",
+                        "funcao": "Desenvolvedor",
+                        "ferias": true
+                    },
+                    {
+                        "nome": "Anderson",
+                        "funcao": "Desenvolvedor",
+                        "ferias": false
+                    },
+                    {
+                        "nome": "Netão",
+                        "funcao": "Arquiteto",
+                        "ferias": false
+                    }
+                ]
+            }
+        ]
+    }
+}
